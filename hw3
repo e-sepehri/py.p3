@@ -1,0 +1,38 @@
+#question 1
+''' a) 757    b) 555    c) 777    d) 333     e) 555      f) 333 '''
+#question 2
+''' a) wow    b) whoa 21    c) whoa 5    d) empty     e) wow '''
+#-------------------------------------------exercise 1
+'''income = int (input ('Enter income: '))
+if income <= 1000 :
+    print ("net income is ",income)
+elif 1000 < income <= 2500 :              #tax is 10% = (income x 10)/100
+    print ("net income is " ,income -(income/10))
+elif 2500 < income <= 4000 :              #tax is 15% = (income x 15)/100
+    print("net income is ",(income - (income*15)/100))
+elif 4000 < income <= 6000 :              #tax is 20% = (income x 20)/100
+    print("net income is ",income - (income / 5))
+elif 6000 < income <= 8000 :              #tax is 25% = (income x 25)/100
+    print("net income is ",income - ((income * 25) / 100))
+else :                                    #tax for income > 8000 is 30% = (income x 30)/100
+    print("net income is ",income - ((income * 30) / 100))'''
+#-------------------------------------------exercise 2
+'''a = int (input ('enter first side: '))
+b = int (input ('enter second side: '))
+c = int (input ('enter third side: '))
+if a*a == b*b + c*c or a*a + b*b == c*c or b*b == a*a + c*c :
+    print ('right triangle')
+else :
+    print('not right triangle ')'''
+#--------------------------------------------exercise 3
+'''i = int(input ('Enter 5 numbers: '))
+u = int (input ())
+y = int (input ())
+o = int (input ())
+e = int (input ())
+#check if they repeated or not
+if y != e != u != i != o and u != o != y != i != e and y != u != o != e :
+    print(' All Unique.')
+else :
+     print ( ' Duplicated.')'''
+#------------------------------------------
